@@ -1,0 +1,42 @@
+table.layout
+{
+	margin:0px;
+	padding:0px;
+	height:auto;
+	color:#000000;
+}
+
+table.layout tr td.top1
+{
+display:none;
+height:0px;
+border:1px solid black;
+}
+table.layout tr td.top
+{
+display:none;
+height:0px;
+}
+table.layout tr td.left
+{
+display:none;
+width:0px;
+}
+table.layout tr td.right, table
+{
+color:#FFFFFF;
+vertical-align:top;
+color:#000000;
+}
+thead{display: table-header-group;}
+tbody{display: table-row-group;}
+tr {page-break-inside: avoid;}
+
+table.formTable tr.r1
+{
+	background-color:#DDDDDD;
+}
+table.formTable tr.r2
+{
+	background-color:#EEEEEE;
+}
